@@ -44,7 +44,7 @@ _A list of commonly used Git and Terminal commands_
 | Command | Description | Descripción |
 | ------- | ----------- | ------------ |
 | `git init` | Initialize a local Git repository | Inicia un repositorio local de Git |
-| `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository | Crea una copia local de un repositorio remoto |
+| `git clone [url]` | Create a local copy of a remote repository | Crea una copia local de un repositorio remoto |
 
 ### Basic Snapshotting / Snapshooting Basico
 
@@ -64,6 +64,7 @@ _A list of commonly used Git and Terminal commands_
 | `git branch -a` | List all branches (local and remote) | Lista todas las ramas locales y remotas |
 | `git branch [branch name]` | Create a new branch | Crea una nueva rama |
 | `git branch -d [branch name]` | Delete a branch | Elimina una rama |
+| `git show-branch --all` | List all branches local | Lista todas las ramas en local |
 | `git push origin --delete [branch name]` | Delete a remote branch | Elimina una rama remota |
 | `git checkout -b [branch name]` | Create a new branch and switch to it | Crea una nueva rama y cambia a ella |
 | `git checkout -b [branch name] origin/[branch name]` | Clone a remote branch and switch to it | Clona una rama remota y cambia a ella |
@@ -97,4 +98,16 @@ _A list of commonly used Git and Terminal commands_
 | `git log -all --graph --decorate --online` | View changes (Max-detailed) | Muestra todos los cambios del repositorio detallada y graficamente |
 | `git diff [source branch] [target branch]` | Preview changes before merging | Compara los diferentes cambios |
 
+
+### Others / Otros
+
+| Command | Description | Descripción |
+| ------- | ----------- | ----------- |
+| `alias [name=] "command"` | Create a shorcut for a command | Crea un alias para llamar a un comando |
+| `git tag -a [name] -m "message" [id/hashtag]` | Create a tag for a commit | Crea un tag de un commit en especifico |
+| `git show-ref --tags` | List all tags | Lista los tags existentes |
+| `git push --tags` | Push tags to your repository | Envia los tags al repositorio remoto |
+| `git tag -d [name]` | Delete a tag | Elimina un tag en especifico |
+| `git push origin :refs/tags/[name]` | Delete a tag from GitHub | Elimina un tag dentro de GitHub |
+| `gitk` | Open GUI | Abre una interfaz grafica |
 
