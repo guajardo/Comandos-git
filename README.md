@@ -31,6 +31,14 @@ _A list of commonly used Git and Terminal commands_
 | `git config --global user.email user@example.com` | Add a email for user | Añade un correo del usuario |
 | `git config --list` | List all setings | Muestra todas las configuraciones |
 
+### Config SSH Keys / Configuracion de Credenciales SSH
+
+| Command | Description | Descripción |
+| ------- | ----------- | ------------ |
+| `ssh-keygen -t rsa -b 4096 -C "Email"` | Generate SSH key | Generar credencial SSH |
+| `eval $(ssh-agent -s)` | Verify ssh agent | Verifica la existencia del servidor de credenciales SSH |
+| `ssh-add [rute]` | Add SSH key to your workspace | Agrega la credencial SSH al entorno de trabajo |
+
 ### Creating Projects / Creacion de proyectos
 
 | Command | Description | Descripción |
@@ -78,6 +86,7 @@ _A list of commonly used Git and Terminal commands_
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Add a remote repository | Crea un repositorio remoto |
 | `fork` | Copy a external repository | Copa un repositorio externo |
 | `git remote -v` | list remote connections | Lista las conexiones remotas |
+| `git remote set-url [branch name] [url]` | Change the url | Cambia la url del repositorio |
 
 ### Inspection & Comparison / Inspeccion y Comparacion
 
@@ -85,5 +94,7 @@ _A list of commonly used Git and Terminal commands_
 | ------- | ----------- | ----------- |
 | `git log` | View changes | Muestra los cambios en el repositorio |
 | `git log --summary` | View changes (detailed) | Muestra los cambios en el repositorio detalladamente |
+| `git log -all --graph --decorate --online` | View changes (Max-detailed) | Muestra todos los cambios del repositorio detallada y graficamente |
 | `git diff [source branch] [target branch]` | Preview changes before merging | Compara los diferentes cambios |
+
 
