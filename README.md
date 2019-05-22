@@ -54,7 +54,9 @@ _A list of commonly used Git and Terminal commands_
 | `git add [file-name.txt]` | Add a file to the staging area | Añade un archivo al area de preparación |
 | `git add .` | Add all new and changed files to the staging area | Añade todos los archivos al area de preparación |
 | `git commit -m "[commit message]"` | Commit changes | Añade los archivos al repositorio |
+| `git commit -am "[commit message]"` |Add changed files and commit | Añande los cambios y hace commit |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) | Elimina archivos o carpetas |
+| `git commit --ammend` | Ammend the last commit | Agrega los cambios al ultimo commit en caso de error |
 
 ### Branching & Merging / Ramas y fusionar
 
@@ -110,4 +112,7 @@ _A list of commonly used Git and Terminal commands_
 | `git tag -d [name]` | Delete a tag | Elimina un tag en especifico |
 | `git push origin :refs/tags/[name]` | Delete a tag from GitHub | Elimina un tag dentro de GitHub |
 | `gitk` | Open GUI | Abre una interfaz grafica |
+| `git cherry.pick [id]` | Take commit from other branches | Trae un commit especifico desde otra rama |
+| `git grep -n [word]` | Search words in the proyect | Busca la palabra especificada en todo el proyecto |
+
 
