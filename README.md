@@ -97,7 +97,7 @@ _A list of commonly used Git and Terminal commands_
 | ------- | ----------- | ----------- |
 | `git log` | View changes | Muestra los cambios en el repositorio |
 | `git log --summary` | View changes (detailed) | Muestra los cambios en el repositorio detalladamente |
-| `git log -all --graph --decorate --online` | View changes (Max-detailed) | Muestra todos los cambios del repositorio detallada y graficamente |
+| `git log -all --graph --decorate --oneline` | View changes (Max-detailed) | Muestra todos los cambios del repositorio detallada y graficamente |
 | `git diff [source branch] [target branch]` | Preview changes before merging | Compara los diferentes cambios |
 
 
