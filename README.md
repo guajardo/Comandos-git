@@ -100,6 +100,12 @@ _A list of commonly used Git and Terminal commands_
 | `git log -all --graph --decorate --oneline` | View changes (Max-detailed) | Muestra todos los cambios del repositorio detallada y graficamente |
 | `git diff [source branch] [target branch]` | Preview changes before merging | Compara los diferentes cambios |
 
+### Reset
+| Command | Description | Descripción |
+| ------- | ----------- | ----------- |
+| `git reset --soft [SHA1]` | Remove commits but leave the files in the staging area | Elimina commits pero deja los archivos en el staging area |
+| `git reset --mixed [SHA1]` | Remove commits and the files are left in the working directory | Elimina commits y los archivos quedan en el working directory |
+| `git reset --hard [SHA1]` | It eliminates changes to us even from the working directory | Nos elimina los cambios incluso del working directory |
 
 ### Others / Otros
 
