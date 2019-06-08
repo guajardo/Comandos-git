@@ -56,7 +56,7 @@ _A list of commonly used Git and Terminal commands_
 | `git commit -m "[commit message]"` | Commit changes | Añade los archivos al repositorio |
 | `git commit -am "[commit message]"` |Add changed files and commit | Añande los cambios y hace commit |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) | Elimina archivos o carpetas |
-| `git commit --ammend` | Ammend the last commit | Agrega los cambios al ultimo commit en caso de error |
+| `git commit --amend` | Ammend the last commit | Agrega los cambios al ultimo commit en caso de error |
 
 ### Branching & Merging / Ramas y fusionar
 
